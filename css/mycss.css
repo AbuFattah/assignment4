@@ -1,0 +1,295 @@
+body{
+	font-size:18px;
+	color:#6F6F6F;
+	font-weight:200;
+	margin:0;
+}
+
+img{
+	max-width:100%;
+	display:block;
+}
+
+.container{
+	width:75%;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.column{
+	width:50%;
+	float:left;
+}
+#header-section{
+	background:#fff url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	height:100vh;
+	position:relative;
+	padding-top:10px;
+}
+
+nav{
+
+}
+
+nav ul{
+	margin: 0px;
+padding: 0px;
+text-align: right;
+}
+nav ul li{
+list-style: none;
+display: inline-block;
+}
+
+nav ul li a{
+color: white;
+text-decoration: none;
+display: block;
+padding: 10px 15px;
+border-right:1.5px solid white;
+}
+
+nav ul li a:hover{
+	color:blue;
+}
+
+nav ul li:last-child a{
+		border-right:0px solid white;
+	}
+
+.analytics{
+	position:absolute;
+	color:white;
+	top: 50%;
+	transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+.analytics h1{
+	font-size:3em;
+	margin:0;
+}
+.analytics p{
+	font-size:22px;
+	max-width:700px;
+}
+
+.button{
+text-transform: uppercase;
+text-decoration: none;
+display: block;
+background: blue;
+border: 1px solid white;
+border-radius: 5px;
+color: white;
+max-width: 120px;
+text-align: center;
+padding: 10px;
+
+}
+.information{}
+.information h1{	
+	font-size: 30px;
+	color: black;}
+.twocolumn h3{color: black;}
+.information span{color: #999;
+text-transform: uppercase;
+font-size: 14px;}
+.information p{color: #999;}
+.twocolumn p{color:#6F6F6F;}
+
+.column2{
+	width:50%;
+	float:left;
+	transform: translateY(60%);
+	-moz-transform: translateY(60%);
+	-webkit-transform: translateY(60%);
+}
+#inform-section{
+	margin-top:100px;
+}
+#development{
+	background:#282F37;
+	height:100vh;
+	position: relative;
+}
+.development{
+	color:#fff;
+	position: absolute;
+	width: 50%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.development span{
+	color: #999;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.development h1{
+	font-size:2.2em;
+	margin:0;
+
+}
+.development .button{
+	text-transform: uppercase;
+	background: white;
+	border: 1px solid white;
+	color:#999999 
+}
+.development p{max-width: 500px;}
+
+
+code{
+	position: absolute;
+	color: #fff9;
+	width: 40%;
+	transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	top: 50%;
+	right: 0;
+	border: 1px solid #fff3;
+	padding:20px;
+	border-right:0;
+}
+code span{
+	color:lightblue;
+}
+
+#office-section{
+	background: #ddd url(../images/office.jpg);
+height: 100vh;
+position: relative;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 100%;
+}
+
+.office{
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	transform: translateY(-50%);
+}
+.office span{
+	font-size: 18px;
+color: #5a5296;
+}
+
+.office p{
+    color: #686666;
+    font-size: 30px;
+    max-width: 600px;
+}
+
+#other-sites{
+	background-color:#2295FF;
+
+}
+
+.other-sites{
+
+}
+.other-sites ul{
+	margin: 0;
+	display: block;
+}
+.other-sites ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.other-sites ul li a{
+	display: block;
+	padding: 65px;
+}
+.column3{
+width: 33.33%;
+float: left;
+box-sizing: border-box;
+padding: 20px;
+max-width:500px
+}
+#contacts-section{
+	padding:100px;
+	overflow:hidden;
+	background-color:#fff;
+
+}
+
+.contacts{
+	overflow:hidden;
+}
+.contacts p{
+	max-width:700px;
+}
+
+.column3 span{
+	font-weight: 900;
+	color:black;
+	text-align:center;
+}
+.contacts span{
+
+}
+
+.contacts .heading{
+	text-align: center;
+}
+
+#business-section{
+	padding:100px;
+	text-align:center;
+	background-color:#ddd;
+	overflow:hidden;
+}
+.column3 .button{
+	background-color:seagreen;
+	max-width: 300px;
+	display: inline-block;
+}
+
+.business{
+
+	overflow:hidden;
+}
+
+.business .heading span{
+	
+}
+
+.business .heading p{
+	
+}
+
+span .num{
+	color:black;
+	font-size: 50px;
+}
+.column3 p{}
+
+footer{
+	background-color:#262F36;
+	color:#ddd;
+}
+
+footer .container{
+	overflow:hidden;
+}
+footer a{
+	text-decoration: none;
+	color: #ddd;
+}
+
+footer ul{
+	display: block;
+	margin: 0px;
+	padding: 0;
+}
+
+footer li{
+	list-style: none;
+}
